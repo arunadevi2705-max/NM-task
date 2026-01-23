@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git 'https://github.com/yourname/yourrepo.git'
+        git 'https://github.com/arunadevi2705-max/NM-task'
       }
     }
 
@@ -33,3 +33,4 @@ pipeline {
     }
   }
 }
+
